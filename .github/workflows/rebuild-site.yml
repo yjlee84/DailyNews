@@ -1,0 +1,65 @@
+# Rebuild euleridentity.com when Daily News changes.
+#
+# euleridentity.com builds from yjlee84/Euleridentity, which pins this repo as
+# the daily-news submodule. A push here does not change that pin, so Cloudflare
+# Pages would not rebuild and would not see the new issue. This workflow moves
+# the pin to the pushed commit and pushes it to Euleridentity main. That push
+# starts the Cloudflare build.
+#
+# Setup: add a repository secret named EULERIDENTITY_TOKEN. Use a fine-grained
+# personal access token limited to yjlee84/Euleridentity with "Contents:
+# Read and write". The default GITHUB_TOKEN cannot push to another repository.
+
+name: Rebuild euleridentity.com
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "static/**"
+      - "archetypes/**"
+  workflow_dispatch:
+
+# Run one at a time and in order, so the pin always ends on the newest commit.
+concurrency:
+  group: rebuild-site
+  cancel-in-progress: false
+
+permissions: {}
+
+jobs:
+  bump-submodule:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out Euleridentity
+        uses: actions/checkout@v4
+        with:
+          repository: yjlee84/Euleridentity
+          ref: main
+          token: ${{ secrets.EULERIDENTITY_TOKEN }}
+          submodules: false
+
+      - name: Point daily-news at this commit
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          git update-index --cacheinfo "160000,${SOURCE_SHA},daily-news"
+          if git diff --cached --quiet; then
+            echo "daily-news already points at ${SOURCE_SHA}. Nothing to do."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update Daily News to ${SOURCE_SHA:0:7}"
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              echo "Pushed. Cloudflare Pages will build this commit."
+              exit 0
+            fi
+            echo "Push rejected (attempt ${attempt}). Rebasing onto main."
+            git pull --rebase origin main
+          done
+          echo "Could not push after 3 attempts." >&2
+          exit 1
