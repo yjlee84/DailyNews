@@ -2,9 +2,11 @@
 #
 # euleridentity.com builds from yjlee84/Euleridentity, which pins this repo as
 # the daily-news submodule. A push here does not change that pin, so Cloudflare
-# Pages would not rebuild and would not see the new issue. This workflow moves
-# the pin to the pushed commit and pushes it to Euleridentity main. That push
-# starts the Cloudflare build.
+# Pages would not rebuild and would not see the new issue. This workflow first
+# builds the site with the pushed content. If the build passes, it moves the pin
+# to the pushed commit and pushes it to Euleridentity main, which starts the
+# Cloudflare build. If the build fails, the pin stays where it is and the live
+# site keeps serving the last good version.
 #
 # Setup: add a repository secret named EULERIDENTITY_TOKEN. Use a fine-grained
 # personal access token limited to yjlee84/Euleridentity with "Contents:
@@ -26,7 +28,8 @@ concurrency:
   group: rebuild-site
   cancel-in-progress: false
 
-permissions: {}
+permissions:
+  contents: read
 
 jobs:
   bump-submodule:
@@ -40,6 +43,36 @@ jobs:
           ref: main
           token: ${{ secrets.EULERIDENTITY_TOKEN }}
           submodules: false
+
+      - name: Check out this repo
+        uses: actions/checkout@v4
+        with:
+          path: _dailynews
+
+      - name: Install Hugo
+        run: |
+          curl -sL -o "$RUNNER_TEMP/hugo.tgz" https://github.com/gohugoio/hugo/releases/download/v0.168.0/hugo_extended_0.168.0_linux-amd64.tar.gz
+          tar -xzf "$RUNNER_TEMP/hugo.tgz" -C "$RUNNER_TEMP" hugo
+          "$RUNNER_TEMP/hugo" version
+
+      - name: Build the site with this content
+        run: |
+          SITE="$RUNNER_TEMP/site"
+          mkdir -p "$SITE/daily-news"
+          rsync -a --exclude .git --exclude daily-news --exclude _dailynews ./ "$SITE/"
+          rsync -a --exclude .git ./_dailynews/ "$SITE/daily-news/"
+          cd "$SITE"
+          "$RUNNER_TEMP/hugo" build --quiet --destination "$RUNNER_TEMP/public"
+          # Hugo silently drops pages with a future date, so check every issue has a page.
+          missing=0
+          for f in daily-news/content/news/20*.md; do
+            d=$(basename "$f" .md)
+            if [ ! -f "$RUNNER_TEMP/public/news/$d.html" ]; then
+              echo "No page generated for $d" >&2
+              missing=1
+            fi
+          done
+          exit $missing
 
       - name: Point daily-news at this commit
         env:

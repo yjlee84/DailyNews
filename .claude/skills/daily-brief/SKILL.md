@@ -13,9 +13,9 @@ The run either **publishes** one brief or **skips** with a reason. In both cases
 
 ## Mode
 
-- **LIVE**: used when the prompt says `LIVE` (the scheduled routine). Publish to `main`, which deploys to https://euleridentity.com. No approval step.
+- **LIVE**: used when the prompt says `LIVE` (the scheduled routine). Publish to `main` of this repo (yjlee84/DailyNews). A GitHub Action then builds the site, moves the `daily-news` pin in the Euleridentity repo, and Cloudflare deploys to https://euleridentity.com, usually within two minutes. No approval step.
 - **INTERACTIVE**: used when the prompt names no mode, i.e. a person is running this in a session. Do Steps 0 to 5, then stop and show the brief, the gate results and the note draft. Commit and push only after the person says yes.
-- **DRY RUN**: used when the prompt says `DRY RUN`. Do everything the same, but push to a new branch `dry-run/<date>` instead of `main`, skip the live check and the hub notification, and say "DRY RUN" at the top of the note. Cloudflare builds a preview of that branch at `https://dry-run-<date>.euleridentity.pages.dev`; check that address instead of the live site (it may take up to two minutes).
+- **DRY RUN**: used when the prompt says `DRY RUN`. Do everything the same, but push to a new branch `dry-run/<date>` instead of `main`, skip the live check and the hub notification, and say "DRY RUN" at the top of the note. No preview site is built for this branch, because the rebuild workflow only runs on `main`. The note must say that the page was not checked on a site.
 
 ## Step 0: Set up
 
@@ -124,7 +124,7 @@ House rules that are easy to miss: no first person (I, we, my, our, us) outside 
 
 ## Step 5: Check
 
-Run `python3 scripts/check_brief.py $DATE`. Every gate must pass. Fix what you can and re-run. Lines starting with `WARN` are style warnings, not gates (no em dashes, at most one semicolon or colon outside quotes). Fix them if it is easy and does not change a figure, name or attribution, but they never block publishing. If a gate still fails, do not publish: go to Step 7 and write a SKIPPED note listing the failed gates. Never edit the check script to make a brief pass.
+Run `python3 scripts/check_brief.py $DATE`. Every gate must pass. This repo has no Hugo site, so the script skips the two build gates and prints a `WARN` line saying so. The "Rebuild euleridentity.com" GitHub Action runs the same build after the push and does not deploy a brief whose page fails to build. Fix what you can and re-run. Lines starting with `WARN` are style warnings, not gates (no em dashes, at most one semicolon or colon outside quotes). Fix them if it is easy and does not change a figure, name or attribution, but they never block publishing. If a gate still fails, do not publish: go to Step 7 and write a SKIPPED note listing the failed gates. Never edit the check script to make a brief pass.
 
 ## Step 6: Publish
 
@@ -136,7 +136,8 @@ Run `python3 scripts/check_brief.py $DATE`. Every gate must pass. Fix what you c
 2. LIVE: `git push origin main`. DRY RUN: `git push origin HEAD:dry-run/$DATE`.
 3. Verify: poll the page every 15 seconds for up to 4 minutes until it returns 200 and contains `No. NNN`:
    - LIVE: `https://euleridentity.com/news/$DATE`
-   - DRY RUN: `https://dry-run-$DATE.euleridentity.pages.dev/news/$DATE`
+   - DRY RUN: skip this check (no preview site exists).
+   - If the LIVE page is still missing after 4 minutes, the GitHub Action probably rejected the build. Do not retry or force anything. Set the status to `Published No. NNN, NOT LIVE` in the note and list what you saw under "Check this".
 4. LIVE only, once the page is verified: run `sh scripts/notify-hub.sh` (expects "Hub notified (204)").
 
 Never force-push, never rewrite history, never edit earlier briefs or any other file.

@@ -157,10 +157,16 @@ def main():
     if marks > 1:
         warnings.append(f"{marks} semicolons or colons outside quotes (limit one, none is better)")
 
-    build = subprocess.run(["hugo", "build", "--quiet", "--destination", "/tmp/brief-check-public"],
-                           capture_output=True, text=True)
-    gate("site builds", build.returncode == 0, (build.stderr or build.stdout).strip()[:200])
-    gate("brief page generated", os.path.exists(f"/tmp/brief-check-public/news/{date}.html"))
+    # The Hugo site (layouts, hugo.toml) lives in the Euleridentity repo. Build here only when
+    # a site is present. In the DailyNews repo the "Rebuild euleridentity.com" workflow runs
+    # the same build before it deploys, so a broken brief never reaches production.
+    if os.path.exists("hugo.toml"):
+        build = subprocess.run(["hugo", "build", "--quiet", "--destination", "/tmp/brief-check-public"],
+                               capture_output=True, text=True)
+        gate("site builds", build.returncode == 0, (build.stderr or build.stdout).strip()[:200])
+        gate("brief page generated", os.path.exists(f"/tmp/brief-check-public/news/{date}.html"))
+    else:
+        warnings.append("no Hugo site in this repo: build gates skipped (the rebuild workflow builds before deploy)")
 
     failed = 0
     for ok, name, detail in results:
