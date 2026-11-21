@@ -1,49 +1,48 @@
-# Editorial log — Friday, November 20, 2026
+# Editorial log — Saturday, November 21, 2026
 
-**Status:** Published No. 021  
-**Live:** https://euleridentity.com/news/2026-11-20  
-**Request indexing:** open https://search.google.com/search-console?resource_id=sc-domain%3Aeuleridentity.com , paste `https://euleridentity.com/news/2026-11-20` into the inspect bar at the top, press Enter, then click "Request indexing" (only needed if the automatic request failed)
+**Status:** Published No. 022  
+**Live:** https://euleridentity.com/news/2026-11-21  
+**Request indexing:** open https://search.google.com/search-console?resource_id=sc-domain%3Aeuleridentity.com , paste `https://euleridentity.com/news/2026-11-21` into the inspect bar at the top, press Enter, then click "Request indexing" (only needed if the automatic request failed)
 
 ## How today's candidates compare
 
 | Story | Storyline · topic area | Reach | Severity | Duration | Changed today? |
 |---|---|---|---|---|---|
-| **ICJ rules 9–6 that Myanmar committed genocide against the Rohingya** | Rohingya genocide case · Politics and law | Medium to high (1.2 million refugees in Bangladesh, about 520,000 Rohingya still in Myanmar, precedent for every genocide case) | High (first state ever found responsible for genocide; orders on prosecution, return and compensation) | Years (binding, final; reparations proceedings to follow) | Yes: judgment delivered Thursday, Nov 19; storyline not covered before |
-| Trump, Xi and Putin issue four-point “Declaration toward Peace” in Shenzhen | Trump–Xi–Putin summit · Conflict and diplomacy | Global | Low so far (no arms-control terms, no timetable, Ukraine and Iran not named) | Uncertain | Yes: summit held and declaration published Nov 19 |
-| Iran drone and missile strikes on Bahrain and Kuwait (Nov 18, per RFE/RL) | Iran war · Conflict and diplomacy | High | High | Long | Partly; not verified in full today, and Bahrain strikes were already covered Nov 16 |
-| Ukraine strike collapses part of the Crimea Bridge road span | Ukraine war · Conflict and diplomacy | Medium | Medium | Medium | Recent (before APEC); only seen in one analysis piece, not verified |
-| Congo Ebola outbreak, Africa CDC says “still not under control” | Congo Ebola outbreak · Health | High regionally | High | Long | No new figures found since the Nov 17 brief |
-| Oil holds near $91–93 Brent as Hormuz tanker attacks offset higher Gulf exports | Iran war · Economy and markets | High (prices) | Low to medium | Medium | No clear move on Nov 19 found |
+| **AI selloff pushes S&P 500 and Dow into correction, Nasdaq erases 2026 gains** | AI stock selloff · Economy and markets | Very high (US indexes behind pensions and savings worldwide, spillover to chips, crypto, rates) | Medium to high (S&P 500 down 8.6% in a week, seventh straight decline) | Months (questions over AI spending, a December Fed hike priced in) | Yes: Friday, Nov 20 close |
+| COP31 in Antalya runs into overtime, draft drops fossil-fuel language and $120bn adaptation target | COP31 climate talks · Climate and disasters | Global | Medium (no deal yet) | Long | Partly: talks still running, third draft expected Saturday, no outcome to confirm |
+| Russian strikes kill 8 across Ukraine after Kerch Bridge span collapse | Ukraine war · Conflict and diplomacy | High | High | Long | Yes for the strikes (overnight Nov 19–20); the bridge collapse itself was Nov 16–17 |
+| Senate rejects Iran war-powers resolution 51–48 | Iran war · Politics and law | High | Low (no change to policy) | Medium | Yes, but a vote that keeps the status quo |
+| Estonia to close Russian border for six months; Russia vows response | Russia–NATO border tensions · Conflict and diplomacy | Medium | Medium | Medium | Yes (Moscow’s reaction) |
+| Senate passes permitting reform bill 62–33 | US permitting reform · Politics and law | Medium | Medium | Long if it becomes law | Yes, but the House still has to vote |
 
-Last seven briefs: 11-13 Iran war · Conflict and diplomacy; 11-14 Nvidia leadership crisis · Technology; 11-15 Trump–Xi–Putin summit · Conflict and diplomacy; 11-16 Iran war · Conflict and diplomacy; 11-17 Congo Ebola outbreak · Health; 11-18 Nvidia leadership crisis · Technology; 11-19 US measles resurgence · Health. Variety rules: in the previous six days (Nov 14–19), Nvidia leadership crisis is at its storyline limit (Nov 14, 18). US measles resurgence ran yesterday, so it cannot run today. Iran war and Trump–Xi–Putin summit each have one brief in the window and were allowed. Conflict and diplomacy, Technology and Health each have two briefs in the window, so none is at the three-brief limit. Politics and law has none.
+Last seven briefs: 11-14 Nvidia leadership crisis · Technology; 11-15 Trump–Xi–Putin summit · Conflict and diplomacy; 11-16 Iran war · Conflict and diplomacy; 11-17 Congo Ebola outbreak · Health; 11-18 Nvidia leadership crisis · Technology; 11-19 US measles resurgence · Health; 11-20 Rohingya genocide case · Politics and law. Variety rules: in the previous six days (Nov 15–20), no storyline has two briefs; Rohingya genocide case ran yesterday and could not run today. Conflict and diplomacy and Health each have two briefs, Technology and Politics and law one each. Economy and markets has none, so no topic area limit is in play.
 
 ## Why this story
-The Shenzhen declaration had the widest reach, and it was allowed under the variety rules. But it is a statement of intent with no arms-control terms, no timetable for the nuclear dialogue, and no mention of Ukraine or Iran. Analysts quoted by RFE/RL (republished by Eurasia Review) called it historic but without breakthroughs. The ICJ judgment is a binding, final legal first. It is the first time the court has found a state responsible for genocide, it orders prosecutions, return and compensation, and it will shape Myanmar’s diplomacy and future genocide cases for years. It also brings in a topic area the site has not covered this week.
+The market correction had the widest reach and something clearly moved on Friday: the S&P 500 and Dow both crossed the 10% correction line and the Nasdaq turned negative for the year. COP31 was the strongest alternative from an uncovered area, but no final text had been agreed at publish time, so the outcome could not be reported. The Ukraine strikes were serious, but the main event (the Kerch Bridge collapse) was four days old. The brief is labelled as a new storyline, "AI stock selloff", because it is a market-wide move driven by AI spending fears, the Anthropic listing and rate expectations. It overlaps with "Nvidia leadership crisis" through the Nvidia SEC report. That storyline has one brief in the Nov 15–20 window (Nov 18; Nov 14 falls outside it) and did not run yesterday, so even under that label today’s brief would be allowed. The brief still keeps Nvidia to two sentences and leads on the indexes.
 
 ## Sources for key facts
-- ICJ ruled on Thursday, Nov 19, that Myanmar committed genocide against the Rohingya; vote 9–6 — PBS NewsHour (AP), Al Jazeera, Radio Free Asia
-- First time the court has found a state responsible for genocide — PBS NewsHour (AP), Al Jazeera, Radio Free Asia
-- Court said evidence showed Myanmar forces killed about 10,000 Rohingya — PBS NewsHour (AP), Al Jazeera, Radio Free Asia
-- More than 730,000 Rohingya fled to Bangladesh — Al Jazeera, Radio Free Asia (Al Jazeera’s explainer gives 740,000–750,000; the lower, more widely used figure was used)
-- Iwasawa quote “has committed genocide against the Rohingya group in northern Rakhine state” — PBS NewsHour (AP), Al Jazeera
-- Myanmar failed in its duty to prevent genocide — Al Jazeera, Radio Free Asia
-- Myanmar said the operation responded to insurgent attacks on police posts — Al Jazeera, Radio Free Asia
-- Orders to prosecute those responsible and allow safe return — PBS NewsHour (AP), Al Jazeera (explainer)
-- Compensation ordered, amount to be set later — PBS NewsHour (AP), Al Jazeera (explainer: report on reparations due within two years)
-- The Gambia brought the case in 2019 — PBS NewsHour (AP), Al Jazeera, Radio Free Asia
-- UK to expel Myanmar’s defense attaché and call for urgent Security Council session — PBS NewsHour (AP), Al Jazeera, Radio Free Asia
-- No immediate response from Myanmar’s government — PBS NewsHour (AP); no Myanmar statement in Al Jazeera or Radio Free Asia
-- About 1.2 million Rohingya in camps in Bangladesh — PBS NewsHour (AP), Al Jazeera, Radio Free Asia
-- Ruling final and binding but the court cannot enforce it; non-compliance can go to the Security Council — PBS NewsHour (AP), Al Jazeera (explainer), Radio Free Asia (no means of enforcing)
+- S&P 500 down 3.7% to 6,910 (6,910.42 Reuters; 6,910.39 CNBC, UPI) — Reuters (hosted on MarketScreener), CNBC, UPI
+- Dow down 949.73 points to 48,147.33 — Reuters (hosted on MarketScreener), CNBC, UPI
+- Both indexes in correction, more than 10% below record highs — Reuters (hosted on MarketScreener), CNBC, UPI
+- Nasdaq Composite down 5.28% to 22,617.73, erasing its 2026 gain — CNBC, UPI (Reuters gives the same close)
+- S&P 500 seventh straight decline — Reuters (hosted on MarketScreener), Economies.com
+- S&P 500 down 8.6% for the week, worst week since April 2025 — CNBC, Economies.com
+- Nvidia fell nearly 14% (13.8% Reuters, about 14% CNBC, UPI) — Reuters (hosted on MarketScreener), CNBC, UPI
+- Reuters reported the SEC is examining possible accounting issues at Nvidia — CNBC, Yahoo Finance (both citing Reuters)
+- Anthropic rose 17% on its Thursday debut, fell on Friday (8.5% CNBC, UPI; 9.1% Reuters; brief says “more than 8%”) — Reuters (hosted on MarketScreener), CNBC, UPI
+- Bitcoin below $60,000 — Reuters (hosted on MarketScreener), UPI
+- Saperstein quote “The stock market is going through an AI repricing” and his reasons — CNBC, UPI
+- Markets price in a quarter-point Fed rate rise in December — Reuters (hosted on MarketScreener), CNBC
 
 ## Photo
-https://commons.wikimedia.org/wiki/File:The_Peace_Palace.jpg · CC BY-SA 4.0 · credit used: Peace Palace, seat of the International Court of Justice, The Hague, 2024. Photo: CIRISORG, CC BY-SA 4.0. (Downloaded as Commons’ standard 1920px thumbnail because the original returned HTTP 429, then cropped to 4:3 and resized to 1440×1080.)
+https://commons.wikimedia.org/wiki/File:Wall_Street_Sign_April_2022.jpg · CC BY-SA 4.0 · credit used: Wall Street, New York, 2022. Photo: Kidfly182, CC BY-SA 4.0. (Original is 3264×2448, already 4:3; resized to 1440×1080.)
 
 ## Check this
-- Myanmar’s government had not responded at publish time. A rejection of the ruling is likely today and may be worth noting if the story is followed up.
-- Death toll: the court’s figure is “about 10,000” (AP, RFA). Iwasawa’s spoken wording was “thousands of Rohingya civilians”.
-- The brief does not include the two-year reporting deadline (November 2028) because only Al Jazeera’s explainer stated it among the articles read in full.
+- Anthropic’s Friday drop differs by source (8.5% vs 9.1%); the brief says “more than 8%”.
+- The S&P 500 close differs in the second decimal (6,910.39 vs 6,910.42); the brief rounds to 6,910.
+- COP31 may close today with a final declaration. That could be a strong candidate for tomorrow.
+- The SEC inquiry into Nvidia rests on Reuters’ unnamed sources. Nvidia and the SEC had not commented in the articles read.
 
 ## Run
-- Gates: 23/23 passed
-- Pushed: 05:10 UTC · Verified live: 05:10:57 UTC · Hub: 204
+- Gates: 21/21 passed (Hugo build gates skipped in this repo, as expected)
+- Pushed: 05:04:57 UTC · Verified live: 05:05:30 UTC · Hub: 204
