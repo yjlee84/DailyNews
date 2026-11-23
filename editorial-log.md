@@ -1,49 +1,48 @@
-# Editorial log — Sunday, November 22, 2026
+# Editorial log — Monday, November 23, 2026
 
-**Status:** Published No. 023  
-**Live:** https://euleridentity.com/news/2026-11-22  
-**Request indexing:** open https://search.google.com/search-console?resource_id=sc-domain%3Aeuleridentity.com , paste `https://euleridentity.com/news/2026-11-22` into the inspect bar at the top, press Enter, then click "Request indexing" (only needed if the automatic request failed)
+**Status:** Published No. 024  
+**Live:** https://euleridentity.com/news/2026-11-23  
+**Request indexing:** open https://search.google.com/search-console?resource_id=sc-domain%3Aeuleridentity.com , paste `https://euleridentity.com/news/2026-11-23` into the inspect bar at the top, press Enter, then click "Request indexing" (only needed if the automatic request failed)
 
 ## How today's candidates compare
 
 | Story | Storyline · topic area | Reach | Severity | Duration | Changed today? |
 |---|---|---|---|---|---|
-| **Mexico captures “El Chapo Isidro”, FBI top-ten fugitive; 11 killed in Guasave raid** | Chapo Isidro arrest · Crime and security | Medium to high (US–Mexico drug trade, Sinaloa population) | High (11 dead, citywide clashes, cartel succession risk) | Months (extradition, cartel power struggle) | Yes: arrest Friday night, Nov 20, reprisals and official confirmations through Saturday |
-| COP31 in Antalya: final text still omits fossil fuels, closing plenary set for Sunday | COP31 climate talks · Climate and disasters | Global | Medium (no deal yet) | Long | Partly: new presidency proposal, but no adopted outcome at publish time (05:00 UTC) |
-| Iran claims strikes on US Patriot radars in Bahrain; Bahrain says a civilian site was hit | Iran war · Conflict and diplomacy | High | Medium | Long | Yes, but claims are disputed and unconfirmed; no change in the war’s course |
-| Tankers hit near Hormuz; traffic 65% below pre-war levels (UKMTO) | Iran war · Conflict and diplomacy | High (oil prices) | Medium | Long | Partly: continuing pattern of attacks |
-| Russian strike on Kryvyi Rih kills two, wounds dozens | Ukraine war · Conflict and diplomacy | High | High | Long | Yes, but similar strikes run almost daily |
-| Danish authorities link foiled assassination plot to Russian intelligence | Russia–NATO tensions · Crime and security | Medium | Medium | Medium | Yes |
+| **COP31 in Antalya ends without a deal after a split over fossil fuels** | COP31 climate talks · Climate and disasters | Global (nearly 200 countries) | High (no agreed text on emissions or finance) | Long (sets up COP32 fights, years of climate policy) | Yes: main decision rejected Sunday afternoon, summit closed without agreement |
+| Ukrainian naval drone attack reportedly sinks Russian corvette *Merkury* off Benghazi, Libya | Ukraine war · Conflict and diplomacy | Medium | Medium | Medium | Yes, but only one listing (Wikipedia current events) found, no articles to confirm it |
+| Bangladesh garment wage protests, factory shutdowns; wage board meets Nov 23 | Bangladesh garment wage protests · Economy and markets | Medium (millions of workers, global apparel supply) | Medium | Medium | Partly: continuing protests, decision due later today |
+| BepiColombo enters orbit around Mercury (Nov 21) | BepiColombo mission · Science and space | Low | Low | Long | Yes, but only Wikipedia found so far, no ESA confirmation surfaced |
+| Iran war / Hormuz shipping | Iran war · Conflict and diplomacy | High | Medium | Long | No new decisive development found in search |
+| Brazil thunderstorm in Tupanciretã kills five, injures 250+ | Brazil storm · Climate and disasters | Low | Medium | Short | Yes |
 
-Last seven briefs: 11-15 Trump–Xi–Putin summit · Conflict and diplomacy; 11-16 Iran war · Conflict and diplomacy; 11-17 Congo Ebola outbreak · Health; 11-18 Nvidia leadership crisis · Technology; 11-19 US measles resurgence · Health; 11-20 Rohingya genocide case · Politics and law; 11-21 AI stock selloff · Economy and markets. Variety rules: in the previous six days (Nov 16–21) no storyline has two briefs. AI stock selloff ran yesterday and could not run today (markets were also closed). Health has two briefs, Conflict and diplomacy one (Nov 16), no area is at its limit. Crime and security and Climate and disasters have none.
+Last seven briefs: 11-16 Iran war · Conflict and diplomacy; 11-17 Congo Ebola outbreak · Health; 11-18 Nvidia leadership crisis · Technology; 11-19 US measles resurgence · Health; 11-20 Rohingya genocide case · Politics and law; 11-21 AI stock selloff · Economy and markets; 11-22 Chapo Isidro arrest · Crime and security. Variety rules: no storyline has two briefs in the previous six days, and Chapo Isidro arrest (yesterday) could not run again today. Health has two briefs, no area is at its limit. Climate and disasters has none this week.
 
 ## Why this story
-The Meza Flores capture is a definite, confirmed event from the last 24 hours with a high toll, and it comes from an area the site has not covered this week. COP31 would rank higher on reach, but its closing plenary had not happened at publish time and the outcome (deal, delay or collapse) could not be reported. It is a strong candidate for tomorrow. The Iran war items were disputed claims and continuing patterns rather than a change in the situation.
+The collapse of COP31 is a definite, confirmed event from the last 24 hours with global reach, and it comes from a topic area the site has not covered this week. Yesterday's note flagged it as a strong candidate once the outcome was known. No higher-ranked candidate was blocked by a variety rule. The Benghazi corvette report could not be confirmed by any article.
 
 ## Sources for key facts
-- Meza Flores captured Friday in Guasave, Sinaloa; one of the FBI’s ten most wanted — PBS NewsHour (AP), Reuters (hosted on The Korea Times), Bernama (dpa)
-- 11 dead: four soldiers and seven suspected gunmen, per the Defense Ministry — PBS NewsHour (AP), Reuters (hosted on The Korea Times), Bernama (dpa)
-- Eight people detained — PBS NewsHour (AP), Reuters (hosted on The Korea Times)
-- Flown to Mexico City and handed to federal (organized crime) prosecutors — Reuters (hosted on The Korea Times), Bernama (dpa); AP says flown to Mexico City
-- US reward up to $5 million — PBS NewsHour (AP), Bernama (dpa), Newsweek
-- Roadblocks with burning vehicles and gunfire — PBS NewsHour (AP), Reuters (hosted on The Korea Times), Bernama (dpa)
-- Sinaloa officials said the situation was under control by Saturday — Reuters (hosted on The Korea Times), Bernama (dpa)
-- Leader of the Beltrán Leyva cartel, later his own group — PBS NewsHour (AP), Reuters (hosted on The Korea Times); dpa says linked to Beltrán Leyva and leads the Guasave cartel
-- Ally of Los Mayos faction of the Sinaloa Cartel — PBS NewsHour (AP), Anadolu Agency morning briefing, Newsweek
-- Cousin (deputy) and brother-in-law (finances) arrested with him — Reuters (hosted on The Korea Times), Bernama (dpa)
-- Operation drew on US intelligence; Ambassador Ronald Johnson praised the cooperation — PBS NewsHour (AP), Reuters (hosted on The Korea Times)
-- Accused of smuggling drugs into the US; faces US drug trafficking charges — Reuters (hosted on The Korea Times; State Department says more than 20 years), Bernama (dpa: US extradition request), Newsweek
-- Cartel infighting in Sinaloa — Reuters (hosted on The Korea Times), PBS NewsHour (AP)
+- Summit ended Sunday, Nov 22, without adopting its main decision — UN News, CBS News, ABC News (ABC/wires), Bernama (Anadolu), The Independent (on Yahoo News)
+- Longest UN climate summit on record, almost two days past the scheduled Friday close — UN News, CBS News, ABC News, The Independent
+- Nearly 200 countries — CBS News; Bernama (Anadolu) says 196 countries and the EU
+- Kurum (Türkiye’s environment minister, COP31 president) closed the session without an agreement — UN News, Bernama (Anadolu), CBS News
+- Final draft did not mention fossil fuels — CBS News, ABC News, The Independent
+- EU formally objected; Ireland’s Darragh O’Brien, for the EU, said it would not back a text that does not even mention fossil fuels — CBS News, ABC News, UN News
+- Panama rejected the draft — CBS News, UN News
+- Developing countries said finance for adaptation was insufficient — ABC News, The Independent
+- Bowen co-presided and blamed parties’ red lines — CBS News (“unbridgeable red lines”), ABC News (“very strong red lines”)
+- Failure does not cancel earlier commitments; 2023 Dubai pledge to transition away from fossil fuels — ABC News, UN News, The Independent
+- Draft acknowledged warming on course to exceed 1.5°C — UN News, CBS News
+- Guterres “deeply disappointed”, “There is no ambiguity in the science” — UN News, CBS News
+
+Left out (only one source today): the 44-hour figure (ABC), Russia and Saudi Arabia backing the omission (ABC), the tripling of finance with no baseline (ABC), the US sending no delegation (CBS), COP32 in Addis Ababa (UN News; other sources found predate COP31), the 35% electricity goal (ABC says proposed but not agreed, The Independent says agreed; sources conflict).
 
 ## Photo
-https://commons.wikimedia.org/wiki/File:Guasave_paisaje.jpg · CC0 · credit used: Guasave, Sinaloa, 2026. Photo: Duar srs, CC0. (Original 3840×2160, center-cropped to 4:3 and resized to 1440×1080.)
+https://commons.wikimedia.org/wiki/File:COP31_-_Closing_Plenary_07.jpg · CC BY-SA 4.0 · credit used: Antalya, 2026. Photo: Xuthoria, CC BY-SA 4.0. (Photo is from the first closing plenary on Nov 20; cropped from the 1920 px Commons thumbnail because the original download was rate-limited with HTTP 429.)
 
 ## Check this
-- No direct quotation was used: the AP and Reuters quotes from Ambassador Johnson differ and neither could be confirmed by a second source, so the brief paraphrases.
-- Death toll and the number detained may change as reprisals in Sinaloa continue. Reuters says eight “alleged criminals” were arrested; AP says eight people were detained.
-- Hugo was not installed for this run (installing it was blocked in the sandbox). The check script skips the build gates in this repo anyway, and the page built and went live.
-- COP31 closing plenary is due Sunday in Antalya. Strong candidate for tomorrow.
+- Reports may still add details on which countries blocked the text and what, if anything, was adopted separately (just transition, Action Agenda). The brief makes no claim on these.
+- The Bangladesh garment wage board meets today and could be a candidate tomorrow.
 
 ## Run
 - Gates: 21/21 passed (Hugo build gates skipped in this repo, as expected)
-- Pushed: 05:05:10 UTC · Verified live: 05:05:45 UTC · Hub: 204
+- Pushed: 05:12 UTC · Verified live: 05:13 UTC · Hub: 204
