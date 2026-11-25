@@ -6,7 +6,7 @@ Rules for everything published on euleridentity.com.
 
 - No first-person pronouns (I, we, my, our). Opinions are phrased as judgments: "The book is right that…", not "I think…".
 - Plain, specific language. Figures over adjectives.
-- Headlines of briefs and articles have no closing period. Brand and section names keep it: "euleridentity.", "Daily News.", "Productivity Lab.".
+- Headlines of briefs and articles have no closing period. Brand name keeps it: "euleridentity.". Section names have none: "Daily News", "Productivity Lab", "Creativ Initiativ", "About".
 
 ## Daily News
 
