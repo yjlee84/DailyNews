@@ -1,51 +1,46 @@
-# Editorial log — Thursday, November 26, 2026
+# Editorial log — Friday, November 27, 2026
 
-**Status:** Published No. 027  
-**Live:** https://euleridentity.com/news/2026-11-26  
-**Request indexing:** open https://search.google.com/search-console?resource_id=sc-domain%3Aeuleridentity.com , paste `https://euleridentity.com/news/2026-11-26` into the inspect bar at the top, press Enter, then click "Request indexing" (only needed if the automatic request failed)
+**Status:** Published No. 028  
+**Live:** https://euleridentity.com/news/2026-11-27  
+**Request indexing:** open https://search.google.com/search-console?resource_id=sc-domain%3Aeuleridentity.com , paste `https://euleridentity.com/news/2026-11-27` into the inspect bar at the top, press Enter, then click "Request indexing" (only needed if the automatic request failed)
 
 ## How today's candidates compare
 
 | Story | Storyline · topic area | Reach | Severity | Duration | Changed today? |
 |---|---|---|---|---|---|
-| **US proposes Section 301 tariffs on 14 economies, including China (20%), the EU, India and Taiwan** | US tariffs (new) · Economy and markets | Very high (most of the largest US trading partners) | Medium | High | Yes: proposal announced Wednesday Nov 25 |
-| Houthis claim attack on Saudi Arabia’s Ras Tanura refinery; 11 hurt in strike on Riyadh’s PIF tower; Brent up about 3.5% | Iran war · Conflict and diplomacy | High (oil prices, Gulf security) | High | High | Yes, but a repeat: Ras Tanura was hit in October, the PIF tower for the second time in a week, and the coalition did not confirm the refinery was struck |
-| Two tankers hit mines in the Strait of Hormuz, Iran says | Iran war · Conflict and diplomacy | High | Medium-high | High | Yes (Iranian claim, not verified) |
-| Israeli judges advise prosecutors to drop or reconsider Netanyahu corruption cases | Netanyahu trial (new) · Politics and law | Medium | Medium | Medium | Yes (not verified) |
-| Fighting in eastern Congo forces Ebola workers to evacuate | Congo Ebola outbreak · Health | High | Very high | High | Yes: evacuation reported Wednesday (not verified) |
-| Poland plans a no-fly zone on its Ukraine border | Russia–NATO tensions (new) · Conflict and diplomacy | Medium | Medium | Medium | Yes (not verified) |
-| Fuel tanker fire on Cairo’s ring road kills at least 30 | Cairo tanker fire (new) · Climate and disasters | Low | High | Low | Yes (not verified) |
+| **Congo’s Ebola outbreak passes 12,000 confirmed cases (5,904 deaths) as fighting in Ituri forces responders to evacuate** | Congo Ebola outbreak · Health | High (eastern Congo, cases in 8 of 26 provinces, regional spread risk) | Very high (nearly half of confirmed cases have died, no vaccine or treatment) | High | Yes: new government data Thursday Nov 26, plus evacuation of trapped health workers |
+| Thanksgiving storm on the US East Coast: 900,000+ without power, Macy’s parade postponed for the first time | US Thanksgiving storm (new) · Climate and disasters | High | Low-medium | Low | Yes (not verified) |
+| US Q3 GDP revised up to 4.3%, October PCE inflation 3.8%, markets price a possible Fed hike | US inflation and rates (new) · Economy and markets | Very high | Medium | Medium | Yes (not verified; Economy and markets already has two briefs this week) |
+| Fuel tanker crash and fire on Cairo’s ring road kills at least 31 | Cairo tanker fire (new) · Climate and disasters | Low | High | Low | Yes (not verified) |
+| Federal court blocks second attempt to restrict birthright citizenship | Birthright citizenship (new) · Politics and law | High | Medium | Medium | Yes (not verified) |
+| Houthi ballistic missiles aimed at Riyadh intercepted | Iran war · Conflict and diplomacy | High | Medium | High | Yes, but a repeat of near-daily attacks (not verified) |
+| Guinea-Bissau junta postpones Dec 6 elections to November 2028 | Guinea-Bissau junta (new) · Politics and law | Low | Medium | High | Yes (not verified) |
 
-Last seven briefs: Nov 19: US measles resurgence · Health; Nov 20: Rohingya genocide case · Politics and law; Nov 21: AI stock selloff · Economy and markets; Nov 22: Chapo Isidro arrest · Crime and security; Nov 23: COP31 climate talks · Climate and disasters; Nov 24: Nvidia leadership crisis · Technology; Nov 25: Russian war losses in Ukraine · Conflict and diplomacy. Variety rules: no storyline or topic area is at its limit for today. “Nvidia leadership crisis” has one brief in the window (Nov 24), because Nov 18 is now outside it. Economy and markets has one brief this week. “Iran war” last ran Nov 16 and “Congo Ebola outbreak” Nov 17, both outside the window.
+Last seven briefs: Nov 20: Rohingya genocide case · Politics and law; Nov 21: AI stock selloff · Economy and markets; Nov 22: Chapo Isidro arrest · Crime and security; Nov 23: COP31 climate talks · Climate and disasters; Nov 24: Nvidia leadership crisis · Technology; Nov 25: Russian war losses in Ukraine · Conflict and diplomacy; Nov 26: US tariffs · Economy and markets. Variety rules: no storyline is at its limit. “US tariffs” cannot run today (consecutive day). Economy and markets has two briefs (Nov 21, Nov 26), one short of its limit. Health has none in the window, and “Congo Ebola outbreak” last ran Nov 17, outside it.
 
 ## Why this story
-The tariff proposal is a new government decision that reaches most of America’s largest trading partners. It also rebuilds broad tariffs nine months after the Supreme Court struck down the earlier set. It ranks above the Houthi attack on Ras Tanura, which was the strongest same-day event and moved oil, because that strike repeats near-daily attacks on Saudi Arabia since October and the damage was not confirmed by the Saudi side.
+The Ebola outbreak crossed 12,000 confirmed cases in new government data, making it the second-largest on record, and fighting in Ituri forced responders out of a hospital on the same days. It outranks the East Coast storm, which is severe but short-lived, and the US GDP and inflation data, which would have been a third Economy and markets brief this week. No higher-ranked candidate was blocked by a variety rule.
 
 ## Sources for key facts
-- Tariffs proposed Wednesday on 14 economies, including China, the EU, India and Taiwan — CNBC, gCaptain (Bloomberg), The Manila Times (AP); also Yahoo Finance (StockTwits, citing Reuters)
-- Greer’s case that these economies overproduce and export the surplus to markets where it hurts US industry — The Manila Times (AP), CNBC, StockAnalysis (WSJ-based summary of the probe)
-- China faces a new 20% rate, total about 45% on many goods with first-term duties, per a senior official — CNBC, The Manila Times (AP); Yahoo Finance (StockTwits) has 20% on top of about 25%
-- Mexico and Norway left out while their investigations continue — gCaptain (Bloomberg), The Manila Times (AP), Yahoo Finance (StockTwits, citing Reuters)
-- Probe opened in March, after the Supreme Court struck down earlier tariffs in February — CNBC, gCaptain (Bloomberg), The Manila Times (AP)
-- Greer quote “When it all nets out, it really will just top up a few percentage points” — CNBC (Greer interview); Yahoo Finance (StockTwits) quotes “top up a few percentage points”
-- No stacking on the 10% to 12.5% forced-labor tariffs — The Manila Times (AP), gCaptain (Bloomberg)
-- About $30 billion of Chinese goods spared under the US-China truce — The Manila Times (AP), Yahoo Finance (StockTwits)
-- No duties for at least a couple of months, after comment and a hearing — CNBC, The Manila Times (AP), Yahoo Finance (StockTwits)
-- Rates could change after the comment period — gCaptain (Bloomberg), The Manila Times (AP: industry feedback and hearing first)
-- Guo Jiakun said China opposed the move — The Manila Times (AP), gCaptain (Bloomberg); CNBC quotes the foreign ministry
-- US-China truce expires in January — gCaptain (Bloomberg), The Manila Times (AP: January 10, 2027)
+- 12,021 confirmed cases and 5,904 deaths, government data released Thursday — Yahoo News (Reuters), ABC News (AP: 12,021, “nearly half” died), Al Jazeera (AP and Reuters); UPI (“just over 5,900” deaths, National Institute of Public Health)
+- Bundibugyo species, no approved vaccine or treatment — Reuters (hosted on Yahoo News), ABC News (AP), Al Jazeera
+- Declared mid-May in Ituri province — Reuters (hosted on Yahoo News), Al Jazeera
+- Cases in eight of Congo’s 26 provinces — Reuters (hosted on Yahoo News), Al Jazeera
+- Deadliest outbreak in Congo’s history — ABC News and WPSU (AP: deadliest of Congo’s 17 outbreaks), Al Jazeera
+- Second-largest Ebola outbreak on record, after West Africa 2014–2016 — Reuters (hosted on Yahoo News); WPSU (AP: “on track to surpass” the West African outbreak)
+- Army vs CRP clashes in Ituri, displacing civilians — ABC News (AP), Al Jazeera, UPI (MONUSCO statement)
+- Smallwood (WHO): fighting blocked teams, disrupted contact monitoring, left treatment centres short-staffed — ABC News and WPSU (AP), Al Jazeera
+- About a dozen people evacuated to Bunia on Tuesday after three days trapped in a hospital in Akwe amid crossfire — ABC News and WPSU (AP), Al Jazeera; UPI has 10 health workers evacuated Tuesday by the Bangladeshi battalion
+- Most new infections are outside known contact lists — Reuters (hosted on Yahoo News: only 15% of new cases from known contacts, Africa CDC), UPI (WHO: more than 80% outside known contact lists)
+- Left out (single source only): “fastest-growing Ebola outbreak in history” (AP), falling daily case counts and Kenya/Nigeria risk levels (UPI), Reuters satellite analysis suggesting undercounted deaths.
 
 ## Photo
-https://commons.wikimedia.org/wiki/File:Office_of_the_United_States_Trade_Representative_-_Winder_Building_(53844804428).jpg · CC BY 2.0 · credit used: Winder Building, home of the Office of the US Trade Representative, Washington, 2024. Photo: ajay_suresh, CC BY 2.0. Downloaded as the 3840 px Commons thumbnail (the original returned HTTP 429), already 4:3, resized to 1440×1080 and saved as `static/news/img/ustr-winder-building-washington.jpg` (new file name).
+https://commons.wikimedia.org/wiki/File:Avenue_RTK_(Bunia)_01.jpg · CC BY-SA 4.0 · credit used: Avenue RTK, Bunia, Ituri province, Democratic Republic of the Congo, 2023. Photo: Kahindon Estha, CC BY-SA 4.0. Downloaded as the standard 1920px thumbnail from upload.wikimedia.org because full-size requests returned HTTP 429; the original is already 4:3, resized to 1440×1080.
 
 ## Check this
-- Sources differ on the country list. Bloomberg, CNBC and StockTwits name Japan and South Korea among the 14. The AP version names Brazil (sugar and a 10% aircraft tariff) and does not appear to list Japan. The brief names only China, the EU, India and Taiwan, which all three agree on.
-- Sources differ on the rate range. AP gives 15% to 35%, CNBC says most rates are 15% to 20%, and other reports put Vietnam at up to 35%. The brief gives only China’s 20%.
-- Bloomberg describes the $30 billion as tariff reductions under a US-China “board of trade”, while AP and StockTwits call it a broad exemption. The brief says “sparing”.
-- AP says the hearing is on January 25 and the duties are likely in February or March. This was not confirmed by a second full article, so the brief gives no date.
-- The credit uses the Flickr name ajay_suresh as given in the Commons metadata.
-- Hugo was not installed in this run, so no local build was attempted. The Action built and deployed the page.
+- Reuters and UPI give the contact-tracing gap as different measures (15% of new cases from known contacts vs more than 80% outside contact lists). The brief says only “most new infections”.
+- The brief does not use a direct quotation: none of the articles read carried a verbatim quote from a named person.
 
 ## Run
-- Gates: 21/21 passed (build gates skipped, no Hugo site in this repo)
-- Pushed: 05:11:15 UTC · Verified live: 05:11:49 UTC (page shows No. 027, image returns 200) · Hub: 204
+- Gates: 21/21 passed (Hugo build gates skipped, as expected in this repo)
+- Pushed: 05:21 UTC · Verified live: 05:22 UTC · Hub: 204
